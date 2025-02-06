@@ -3,19 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --bag: #131313;
+  --fag: #fff;
+  --card: #1C1C1C;
+  --incard: #2C2C2C;
+  --greena: #0088a9;
+} 
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--fag);
+  background: var(--bag);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+}
+
+@layer base {
+  * {
+    @apply transition-all duration-300;
+  }
 }

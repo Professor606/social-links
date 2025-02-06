@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg: "var(--bag)",
+        fg: "var(--fag)",
+        card: "var(--card)",
+        incard: "var(--incard)",
+        greena: "var(--greena)",
       },
     },
   },
