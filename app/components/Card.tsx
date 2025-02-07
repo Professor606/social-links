@@ -20,6 +20,9 @@ const Card = () => {
       <div className="bg-incard rounded-md py-[0.75rem] w-[17rem] sm:w-[19rem] justify-center hover:w-[15rem] flex items-center rounded-lg mt-[0.5rem]">
         <Link href="https://instagram.com/xahmad606?igsh=ODJua2c2MDNycGZi" target="_blank" className="font-medium text-xl hover:text-[#E1306C] hover:cursor-pointer hover:scale-110">Instagram</Link>
       </div>
+      <div className="bg-incard rounded-md py-[0.75rem] w-[17rem] sm:w-[19rem] justify-center hover:w-[15rem] flex items-center rounded-lg mt-[0.5rem]">
+        <Link href="https://open.spotify.com/playlist/61MhjIE59Qk5RjcBLSZTJV?si=WnCwx6vxToSEMSX1qMc84g&pi=4uhQo44nThKq3" target="_blank" className="font-medium text-xl hover:text-[#1BC258] hover:cursor-pointer hover:scale-110">Spotify</Link>
+      </div>
     </div>
   );
 }
