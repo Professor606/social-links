@@ -22,6 +22,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   overflow: hidden;
+  font-family: var(--font-oswald), sans-serif;
 }
 
 @layer base {

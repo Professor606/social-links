@@ -1,13 +1,13 @@
 import Card from "./components/Card";
-import Cardo from "./components/Cardo";
 import React from 'react';
-import Link from 'next/link';
-
+import Image from 'next/image';
 export default function Home() {
   return (
-    <>
-    <Card />
-    
-    </>
+    <div className="flex flex-col items-center max-h-screen p-0">
+      <Card />
+      <footer className="mt-[5rem] mb-[1rem] hover:scale-125">
+        <Image className="invert w-[5rem]" width="0" height="0" src="/next.svg" alt="Nextjs Logo"/>
+      </footer>
+    </div>
     );
 }
