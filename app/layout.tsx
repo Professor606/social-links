@@ -1,8 +1,7 @@
-import type { Metadata } from "next";
-import { Oswald } from "next/font/google";
 import "./globals.css";
 import React from 'react';
-
+import type { Metadata } from "next";
+import { Oswald } from "next/font/google";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -10,7 +9,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmad's Social Links",
+  title: "Ahmad",
   description: "Ahmad's Social Media Links",
 };
 
